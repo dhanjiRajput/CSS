@@ -64,7 +64,6 @@
 #banner{
     display: flex;
     margin-top: 200px;
-    width: 100%;
 }
 
 
@@ -175,7 +174,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
-    width: 100%;
 }
 
 #advert1{
@@ -201,7 +199,6 @@
     align-items: center;
     justify-content: space-around;
     background-color: white;
-    width: 100%;
 }
 
 #box4{
@@ -236,7 +233,6 @@
     height: 150px;
     margin-top: 130px;
     display: flex;
-    width: 100%;
 }
 
 #text_content1{
@@ -269,7 +265,6 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 20px;
-    width: 100%;
 }
 
 #images1{
@@ -289,7 +284,6 @@
 #endText{
     text-align: center;
     margin-top: 100px;
-    width: 100%;
 }
 
 #Etext1{
@@ -308,7 +302,6 @@
 #trans{
     position: relative;
     margin-top: 130px;
-    width: 100%;
 }
 
 #trans1{
@@ -357,7 +350,6 @@
     background-color: rgb(240, 240, 240);
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    width: 100%;
     height: 100%;
 }
 
