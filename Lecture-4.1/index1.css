@@ -1,0 +1,101 @@
+#main{
+    border-style: ridge;
+    border-radius: 15px;
+    height: 600px;
+    width: 25%;
+    margin-left: 36%;
+    margin-top: 10px;
+    transition-duration: 0.8s;
+    padding: 10px;
+
+}
+
+#s1{
+    color: rgb(248, 142, 160);
+    margin-right: 20px;
+}
+#s2{
+    color: rgb(59, 247, 131);
+    margin-right: 20px;
+}
+#main:hover{
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(247, 247, 213);
+}
+
+#div1{
+    margin-left: 7%;
+}
+
+#span1{ 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#span2{
+    border-style:double;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 25px;
+    border-color:rgb(188, 188, 248);
+    transition-duration: 0.6s;
+    margin-left: 10px;
+}
+
+#span2:hover{
+    background-color:rgb(241, 188, 123);
+    color: rgb(188, 117, 247);
+}
+
+#div2{
+    margin-left: 5%;
+    text-align: center;
+}
+
+#s3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#span3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#span4{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgb(162, 175, 175);
+}
+
+#span5{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 255, 64);
+}
+
+#button1{
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 65%;
+    border: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(205, 163, 240);
+    transition-duration: 0.8s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+}
+
+#div3{
+    margin-top: 20px;
+}

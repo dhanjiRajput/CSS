@@ -1,0 +1,53 @@
+.main{
+    margin: 20px;
+    display: flex;
+}
+#div1{
+    height: 480px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+    transition-duration: 0.8s;
+}
+
+#div1:hover{
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img{
+    padding: 22px;
+}
+
+#d1{
+    text-align: center;
+}
+
+#s1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#s3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#b1{
+    margin-top: 20px;
+    width: 300px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px 0px 10px 10px;
+    background-color: bisque;
+    border: 0px;
+    transition-duration: 0.8s;
+}
+
+#b1:hover{
+    background-color: rgb(198, 240, 226);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

@@ -1,0 +1,64 @@
+.text1{
+    background-color: rgb(170, 247, 221);
+    border-color: rgb(105, 23, 212);
+    border-style: ridge;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    font-style: italic;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.text2{
+    margin-top: 10px;
+    background-color: rgb(234, 241, 239);
+    border-color: rgb(247, 73, 189);
+    border-style:dashed;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration:line-through;
+    font-style: italic;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.text3{
+    margin-top: 10px;
+    background-color: rgb(196, 224, 217);
+    border-color: rgb(240, 31, 31);
+    border-style:ridge;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.text4{
+    margin-top: 10px;
+    background-color: rgb(85, 233, 196);
+    border-color: rgb(212, 21, 165);
+    border-style:ridge;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: overline;
+    color: blue;
+    text-indent: 25px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+.text5{
+    margin-top: 10px;
+    background-color: rgb(238, 229, 104);
+    border-color: rgb(37, 144, 231);
+    border-style:ridge;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: overline;
+    color: red;
+    text-indent: 25px;
+    text-align: justify;
+}

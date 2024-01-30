@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#b2{
+    padding: 5px;
+    border-radius: 40%;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    position: absolute;
+    position: fixed;
+    top: 90%;
+    right: 5%;
+    text-decoration: none;
+}
+
+#nav1{
+    height: 50px;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#nav2{
+    background-color: rgb(50,50,50);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#nav3{
+    height: 40px;
+    display: flex;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(75, 146, 146);
+    border-width: 1px;
+}
+
+#a3{
+    color: rgb(28, 21, 43);
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 15px;
+    margin-right: 25px;
+    font-weight: bold;
+    
+}
+
+#a3:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+#a1{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+#a2{
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+#a2:hover{
+    border-style: ridge;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#a1:hover{
+    border-style: ridge;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#text1{
+    margin-top: 5px;
+    width: 500px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+#s1{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#s2{
+    color: rgb(167, 173, 177);
+}
+
+#a4{
+    color: rgb(102, 101, 101);
+    font-size: 18px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+#div1{
+    padding-top: 20px;
+}
+
+#main{
+    display: flex;
+    margin-top: 10px;
+}
+
+#list{
+    border-style: solid;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-color: rgb(92, 91, 91);
+    border-width: 1px;
+}
+
+#content{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 50px;
+}
+
+#box{
+    height: 300px;
+    width:200px;
+    transition-duration: 0.5s;
+}
+
+#box:hover{
+    transform: scale(1.02);
+}
+
+#b1{
+    padding: 10px;
+    font-size: 18px;
+    width: 180px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(193, 213, 214);
+}
+
+#s4{
+    color: rgb(41, 173, 134);
+}
+
+#s4:hover{
+    color: rgb(187, 98, 98);
+    text-decoration: underline;
+}

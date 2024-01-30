@@ -1,0 +1,98 @@
+#div1{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#div2{
+    padding: 20px;
+    
+}
+
+#divmain{
+    margin-top: 25px;
+    display: flex;
+}
+#div3{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    background-color:rgb(224, 240, 253);
+    padding: 20px;
+    margin-left: 23px;
+    border-radius: 15px 0px 15px 0px;
+    transition-duration: 0.7s;
+}
+
+#div3:hover{
+    background-color:rgb(219, 219, 219);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#b1{
+    padding: 10px;
+    font-size: 20px;
+    width: 190px;
+    background-color: rgb(206, 189, 189);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    margin-top: 30px;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 1px
+}
+
+#b1:hover{
+    background-color:rgb(169, 183, 184);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+#a1{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: 0.8s;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 1px
+}
+
+#img1{
+    transition-duration: 0.5s;
+}
+
+#img1:hover{
+  transform: scale(1.1); 
+}
+
+#a1:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(204, 204, 204);   
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(236, 255, 255);
+}
+
+.fa-solid{
+    padding-right: 5px;
+}

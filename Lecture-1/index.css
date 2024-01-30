@@ -1,0 +1,19 @@
+.text1{
+    background-color: rgb(206, 216, 226);
+    padding: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+.text2{
+    background-color: aquamarine;
+}
+
+.text3{
+    background-color: rgb(231, 97, 175);
+}
+
+.text4{
+    padding: 10px;
+    background-color: rgb(206, 216, 226);
+}
