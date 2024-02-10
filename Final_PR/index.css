@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color:#2c3e50;
+    --effect_color:rgb(54, 141, 182);
+}
+
+#nav{
+    display: flex;
+    background-color: var(--color);
+    height:fit-content;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color:white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color:var(--effect_color);
+}
+
+.fa-solid{
+    margin-right:8px ;
+}
+
+#product{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+@media(max-width:768px){
+    #product{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+@media(min-width:769px) and (max-width:1020px){
+    #product{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+#box{
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease;
+    background-color: #fff;
+    border-radius: 7px;
+
+}
+
+#box:hover{
+    transform:translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+}
+
+#box:hover img{
+    transform: scale(1.05);
+}
+
+#s1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#s2{
+    color: rgb(59, 59, 59);
+}
+
+button{
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 0px;
+    background-color: var(--color);
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--effect_color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#form{
+    background-color: darkgray;
+    padding: 15px;
+    height: fit-content;
+    width: 400px;
+    text-align: center;
+}
+
+input{
+    height: 35px;
+    width: 390px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
