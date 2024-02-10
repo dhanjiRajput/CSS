@@ -15,7 +15,13 @@
     padding: 15px;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
+
 
 a{
     color:white;
@@ -35,6 +41,7 @@ a:hover{
 }
 
 #product{
+    margin-top:60px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     padding: 20px;
@@ -43,6 +50,7 @@ a:hover{
 
 @media(max-width:768px){
     #product{
+        margin-top: 60px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding: 20px;
@@ -52,6 +60,7 @@ a:hover{
 
 @media(min-width:769px) and (max-width:1020px){
     #product{
+        margin-top: 60px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding: 20px;
